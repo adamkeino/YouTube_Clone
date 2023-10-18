@@ -79,13 +79,11 @@
     opacity: 1;
 }
 .tooltip-text .tooltip-text-header {
-    font-family: arial;
     font-weight: 600;
     font-size: 14px;
     padding-bottom: 5px;
 }
 .tooltip-text .tooltip-text-body {
-    font-family: arial;
     font-weight: 200;
     font-size: 12px;
 }
