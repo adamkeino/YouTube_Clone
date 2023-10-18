@@ -12,6 +12,32 @@
     background-color: rgb(235, 252, 252);
     padding: 15px;
 }
+/* Responsive designs */
+/* Phones */
+@media (min-width: 320px) and (max-width: 480px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* Tablets */
+@media (min-width: 481px) and (max-width:768px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* Laptops */
+@media (min-width: 769px) and (max-width:1024px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+/* Desktops and above */
+@media (min-width: 1025px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 
 .video-info-grid {
     display: grid;
